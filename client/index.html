@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
-    <script type="module" src="/client/script.js"></script>
+    <script type="module" src="script.js"></script>
 </head>
 <body>
         <section id="calculator">
@@ -22,38 +22,37 @@
             </section>
             <section id="operation-sec">
                 <div id="firstRow">
-                    <button class="btn orange-text" value="C">C</button>
-                    <button class="btn orange-text" value="⌫">⌫</button>
-                    <button class="btn orange-text" value="%">%</button>
-                    <button class="btn orange-text" value="÷">÷</button>
+                    <button class="btn orange-text" id="clear">AC</button>
+                    <button class="btn orange-text" id="delete">⌫</button>
+                    <button class="btn number orange-text" id="percent" value="%">%</button>
+                    <button class="btn onumber orange-text" id="divide" value="÷">÷</button>
                 </div>
                 <div id="secondRow">
-                    <button class="btn white-text" value="7">7</button>
-                    <button class="btn white-text" value="8">8</button>
-                    <button class="btn white-text" value="9">9</button>
-                    <button class="btn orange-text" value="×">×</button>
+                    <button class="btn number white-text" id="seven" value="7">7</button>
+                    <button class="btn number white-text" id="eight" value="8">8</button>
+                    <button class="btn number white-text" id="nine" value="9">9</button>
+                    <button class="btn number orange-text" id="multiply" value="×">×</button>
                 </div>
                 <div id="thirdRow">
-                    <button class="btn white-text" value="4">4</button>
-                    <button class="btn white-text" value="5">5</button>
-                    <button class="btn white-text" value="6">6</button>
-                    <button class="btn orange-text" value="-">-</button>
+                    <button class="btn number white-text" id="four" value="4">4</button>
+                    <button class="btn number white-text" id="five" value="5">5</button>
+                    <button class="btn number white-text" id="six" value="6">6</button>
+                    <button class="btn number orange-text" id="subtract" value="-">-</button>
                 </div>
                 <div id="forthRow">
-                    <button class="btn white-text" value="1">1</button>
-                    <button class="btn white-text" value="2">2</button>
-                    <button class="btn white-text" value="3">3</button>
-                    <button class="btn orange-text" value="+">+</button>
+                    <button class="btn number white-text" id="one" value="1">1</button>
+                    <button class="btn number white-text" id="two" value="2">2</button>
+                    <button class="btn number white-text" id="three" value="3">3</button>
+                    <button class="btn number orange-text" id="add" value="+">+</button>
                 </div>
                 <div id="fifthRow">
-                    <button class="btn orange-text" value="00">00</button>
-                    <button class="btn white-text" value="0">0</button>
-                    <button class="btn white-text" value=".">.</button>
-                    <button class="btn orange-text" value="=">=</button>
+                    <button class="btn number orange-text" id="dbZero" value="00">00</button>
+                    <button class="btn number white-text" id="zero" value="0">0</button>
+                    <button class="btn number white-text" id="point" value=".">.</button>
+                    <button class="btn orange-text" id="equals" value="=">=</button>
                 </div>
             </section>
         </section>
 </body>
 </html>
 
-<!-- https://wumbo.net/symbols/times/ -->

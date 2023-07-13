@@ -46,10 +46,8 @@ html {
 }
 
 #calculator #display-sec {
-    position: relative;
-    /* left: calc(0.5em); */
-    right: calc(1em + 11.3% );
     padding-top: 7em;
+    padding-right: 2em;
 }
 
 #calculator {
@@ -65,8 +63,8 @@ html {
 
  @media (max-width: 600px) {
     #calculator #display-sec {
-            /* padding-top: 7em; */
-            padding-right: 6em;
+            padding-top: 7em;
+            padding-right: 0.89em;
         }
  }
 
