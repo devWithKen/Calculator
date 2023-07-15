@@ -21,9 +21,28 @@ del.addEventListener('click', function() {
     operate.pop();
 });
 
-
 clear.addEventListener('click', function() {
     operate = [];
     operation.textContent = '0';
 });
 
+const equals = document.querySelector('#equals');
+
+function addition() {
+  const calculate = operation.textContent.split('+');
+  let count = 0;
+    for (let i=0; i<calculate.length; i++) {
+      const result = count += 
+      parseInt(calculate[i]);
+      console.log(calculate);
+      console.log(result);
+    }
+}
+
+const operators = ['+', '-', '/', '*'];
+
+function operation() {
+  
+}
+
+equals.addEventListener('click', addition);
