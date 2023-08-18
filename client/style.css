@@ -15,15 +15,15 @@ html {
     height: 5em;
 }
 
-#calculator #display-sec #result {
+#calculator #display-sec .previousOperand {
     text-align: right;
-    color: rgb(80, 61, 61);
+    color: rgb(102, 83, 83);
     font-size: 3em;
     margin-right: 0.4em;
     margin-top: 0.4em;
 }
 
-#calculator #display-sec #operation {
+#calculator #display-sec .currentOperand {
     text-align: right;
     color: white;
     font-size: 3em;
